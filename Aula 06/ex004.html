@@ -6,22 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tratamento de String</title>
     <style>
-        body{
-            font: normal 15pt Arial;
+        body {
+            background-color: aquamarine;
+            font: normal 1.5em Arial;
         }
     </style>
 </head>
 <body>
 
     <script>
-        var nome = window.prompt(`Qual é seu nome?`)
-        // var sal = window.prompt(`Digite seu salário`)
-        document.write(`Olá ${nome} <br/>`)
-        document.write(`Olá, ${nome} Seu nome tem ${nome.length} letras<br/>`)
-        document.write(`Seu nome em letras maiusculas ${nome.toUpperCase()}<br/>`)
-        document.write(`Seu nome em letras minusculas é ${nome.toLowerCase()}<br/>`)
-        // document.write(`Seu salário é `)
-        // document.write (sal.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})) 
+        var nome = prompt('Qual é seu nome? ')
+        var n1 = Number(prompt('Qual seu salário? '))
+        document.write(`Olá ${nome},Seu nome tem: ${nome.length} letras <br>`)
+        document.write(`Seu nome em maiusculas: ${nome.toUpperCase()} <br>`)
+        document.write(`Seu nome em minusculas: ${nome.toLowerCase()} <br>`)
+        document.write(`Seu salário é de ${n1.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})}`)
     </script>
 </body>
 </html>
