@@ -8,6 +8,7 @@
 
 body {
     background-color: royalblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -24,6 +25,18 @@ section.main {
     margin: 15px 0;
     border-radius: 10px;
     
+}
+
+div.p1 {
+    margin: 10px;
+}
+
+input.btn {
+    margin: 10px;
+}
+
+div.saida {
+    text-align: center;
 }
 
 footer.rodapé p {color: white;}

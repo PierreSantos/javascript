@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Modelo de Exercício</title>
+    <title>Verificador de Idade</title>
 </head>
+
 <body>
     <header class="cabeçalho">
-        <h1>Título</h1>
+        <h1>Verificador de idade</h1>
     </header>
     <section class="main">
-        testando
-        <div class="d1">
-        
+        <div class="entrada">
+            <div class="p1">
+                <label for="ano">Ano de Nascimento :</label>
+                <input type="number" name="ano" id="ano">
+            </div>
+            <div class="p1">
+                <span id="sexo">Sexo:</span>
+                <input type="radio" value="m" name="sexo" id="sexom">
+                <label for="sexom">Masculino</label>
+                <input type="radio" value="f" name="sexo" id="sexof">
+                <label for="sexof">Feminino</label>
+            </div>
+            <input class="btn" type="button" value="Verificar" onclick="verificaridade()">
         </div>
-        <div class="d2">
-
+        <div class="saida">
+            Preencha os dados acima para ver o resultado!
         </div>
     </section>
     <footer class="rodapé">
@@ -25,4 +37,5 @@
     </footer>
     <script src="main.js"></script>
 </body>
+
 </html>
